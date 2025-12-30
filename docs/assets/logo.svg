@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    text {
+      font-family: Menlo, Consolas, Monaco, Adwaita Mono, Liberation Mono, Lucida Console, monospace;
+      font-weight: bold;
+      fill: #000000;
+    }
+    @media (prefers-color-scheme: dark) {
+      text {
+        fill: #FFFFFF;
+      }
+    }
+  </style>
+  <text x="35%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="60">/</text>
+</svg>

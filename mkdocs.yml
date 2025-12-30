@@ -1,0 +1,70 @@
+site_name: net/mmhan
+site_url: https://mmhan.net
+site_author: mmhan
+site_description: "Engineering notes, link log, and thoughts on Python & Systems."
+
+# Repository button (Great for engineering cred)
+# repo_name: mmhan/mmhan.net
+# repo_url: https://github.com/mmhan/mmhan.net
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  icon:
+    # Remove custom logo from here as it trigger template search
+  # "cards" layout is modern; "flat" is more old-school hacker.
+  # Using system preference for dark mode is standard for devs.
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs        # Top-level tabs (Home | Blog | Notes)
+    - navigation.indexes     # clickable section headers
+    - content.code.copy      # "Copy" button on code blocks
+    - toc.follow             # Table of contents follows scroll
+
+# Plugins are the magic here
+plugins:
+  - search
+  - blog:
+      blog_dir: blog/posts   # Where your link posts live
+      post_url_format: "{date}/{slug}"
+      blog_toc: true         # Shows TOC on the right for long articles
+      # This makes the "Blog" tab act as your chronological feed
+      post_excerpt: required # Forces you to write a summary for the feed
+
+# Python-centric Markdown extensions
+markdown_extensions:
+  - admonition               # For "Note", "Warning", "Tip" blocks
+  - pymdownx.details         # Collapsible blocks (great for long logs)
+  - pymdownx.highlight:      # Best-in-class code highlighting
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences     # Nesting code blocks inside lists
+  - pymdownx.tabbed:         # Code tabs (e.g. "Python" vs "Rust")
+      alternate_style: true
+  - md_in_html               # Required for parsing Markdown inside HTML
+  - attr_list                # Required for 'markdown="1"' in HTML blocks
+  - pymdownx.emoji:          # Support for :emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.magiclink       # Auto-link URLs
+
+# Navigation Structure
+nav:
+  - $HOME: index.md
+  # - Feed:
+  #    - blog/index.md        # The auto-generated Blog Feed
+  # - Notes:          # Your "Digital Garden"
+  #    - Python: notes/python/1.md
+  #    - Python 2: notes/python/2.md
