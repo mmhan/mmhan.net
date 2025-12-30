@@ -36,7 +36,7 @@ theme:
 plugins:
   - search
   - blog:
-      blog_dir: blog/posts   # Where your link posts live
+      blog_dir: log # Where your link posts live
       post_url_format: "{date}/{slug}"
       blog_toc: true         # Shows TOC on the right for long articles
       # This makes the "Blog" tab act as your chronological feed
@@ -63,8 +63,8 @@ markdown_extensions:
 # Navigation Structure
 nav:
   - $HOME: index.md
-  # - Feed:
-  #    - blog/index.md        # The auto-generated Blog Feed
+  - /var/log/:
+    - log/index.md        # The auto-generated Blog Feed
   # - Notes:          # Your "Digital Garden"
   #    - Python: notes/python/1.md
   #    - Python 2: notes/python/2.md
