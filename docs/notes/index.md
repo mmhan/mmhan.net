@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - feedback
+---
+
 # `~/.notes`
 
 <div class="grid cards" markdown="1">

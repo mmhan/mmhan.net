@@ -18,11 +18,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: blue grey
+      accent: teal
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: blue grey
+      accent: teal
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -67,3 +71,27 @@ nav:
     - log/index.md        # The auto-generated Blog Feed
   - ~/.notes/:          # Your "Digital Garden"
     - Python: notes/index.md
+
+extra:
+  analytics:
+    provider: google
+    property: G-YGCYDKD7L6
+    feedback:
+      title: How was this page?
+      ratings:
+        - icon: material/thumb-up
+          name: Like
+          data: 1
+          note: >-
+            I'm happy to hear that you found this page helpful.
+        - icon: material/thumb-down
+          name: Dislike
+          data: 0
+          note: >-
+            I'm sorry to hear that you didn't find this page helpful.
+  consent:
+    title: Cookie Consent
+    description: >-
+      This website use Google Analytics cookies to track user interaction
+      just so that I can look at some pretty metrics and feel vain about
+      how many people are reading my website.

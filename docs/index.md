@@ -1,6 +1,7 @@
 ---
 hide:
   - navigation
+  - feedback
 ---
 
 # Hello, I'm Mike Myat Min Han
