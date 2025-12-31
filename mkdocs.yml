@@ -76,19 +76,6 @@ extra:
   analytics:
     provider: google
     property: G-YGCYDKD7L6
-    feedback:
-      title: How was this page?
-      ratings:
-        - icon: material/thumb-up
-          name: Like
-          data: 1
-          note: >-
-            I'm happy to hear that you found this page helpful.
-        - icon: material/thumb-down
-          name: Dislike
-          data: 0
-          note: >-
-            I'm sorry to hear that you didn't find this page helpful.
   consent:
     title: Cookie Consent
     description: >-
