@@ -65,6 +65,5 @@ nav:
   - $HOME: index.md
   - /var/log/:
     - log/index.md        # The auto-generated Blog Feed
-  # - Notes:          # Your "Digital Garden"
-  #    - Python: notes/python/1.md
-  #    - Python 2: notes/python/2.md
+  - ~/.notes/:          # Your "Digital Garden"
+    - Python: notes/index.md

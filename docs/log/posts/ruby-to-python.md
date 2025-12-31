@@ -1,6 +1,7 @@
 ---
 date: 2025-01-26
 categories: [Python, Ruby, Career]
+slug: ruby-to-python
 ---
 
 # Switching to Python: Notes from a Ruby Developer
