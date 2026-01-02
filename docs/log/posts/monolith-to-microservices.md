@@ -4,9 +4,9 @@ categories: [Book, Notes, Software Architecture]
 slug: monolith-to-microservices
 ---
 
-# Wrestling with a Monolith: Notes on Sam Newman's "Building Microservices"
+# Wrestling with a Monolith: Notes on Sam Newman's "Monolith to Microservices"
 
-Reading a technical book in your spare time is a dangerous game. For months, Sam Newman's "Building Microservices" was my companion, and with every chapter, I'd inevitably fall down a rabbit hole, furiously sketching diagrams of how to apply his ideas to my own monolithic beast at work. It was less a casual read and more a series of intense, unsolicited brainstorming sessions.
+Reading a technical book in your spare time is a dangerous game. For months, Sam Newman's "Monolith to Microservices" was my companion, and with every chapter, I'd inevitably fall down a rabbit hole, furiously sketching diagrams of how to apply his ideas to my own monolithic beast at work. It was less a casual read and more a series of intense, unsolicited brainstorming sessions.
 
 <!-- more -->
 
