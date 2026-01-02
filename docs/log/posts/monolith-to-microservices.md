@@ -20,7 +20,7 @@ If you’re just starting to entertain the idea of microservices, do yourself a 
 
 Then, I’d suggest skipping ahead to Chapter 5, "Growing Pains," to get a taste of the challenges that await you on the other side. It’s a healthy dose of realism that’s crucial for setting expectations. It’s one thing to want to escape the monolith; it’s another to be prepared for the new set of problems you’ll be inheriting.
 
-### Chapter 3: The Surgical Toolkit
+### Chapter 3: Patterns for the Migration
 
 Chapter 3, "Splitting the Monolith," felt like being handed a set of weapons to fight a war. It lays out a variety of patterns for carefully carving up a monolith, offering a much-needed sense of structure for what can feel like an impossibly chaotic task.
 
