@@ -1,6 +1,6 @@
 ---
 date: 2025-12-31
-categories: [Career, Review]
+categories: [Career, Software Architecture]
 slug: 2025-recap
 ---
 

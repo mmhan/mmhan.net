@@ -1,6 +1,6 @@
 ---
 date: 2026-01-02
-categories: [Book, Notes, Software Architecture]
+categories: [Book, Software Architecture]
 slug: monolith-to-microservices
 ---
 
