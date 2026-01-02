@@ -82,3 +82,8 @@ extra:
       This website use Google Analytics cookies to track user interaction
       just so that I can look at some pretty metrics and feel vain about
       how many people are reading my website.
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mmhan
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/mmhan.net
