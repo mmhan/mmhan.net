@@ -2,6 +2,7 @@ site_name: net/mmhan
 site_url: https://mmhan.net
 site_author: mmhan
 site_description: "Engineering notes, link log, and thoughts on Python & Systems."
+copyright: "Copyright &copy; 2026 mmhan"
 
 # Repository button (Great for engineering cred)
 # repo_name: mmhan/mmhan.net
@@ -9,6 +10,7 @@ site_description: "Engineering notes, link log, and thoughts on Python & Systems
 
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/logo.svg
   favicon: assets/logo.svg
   icon:
@@ -38,6 +40,8 @@ theme:
 
 # Plugins are the magic here
 plugins:
+  - social
+  - meta
   - search
   - blog:
       blog_dir: log # Where your link posts live
@@ -87,3 +91,6 @@ extra:
       link: https://github.com/mmhan
     - icon: fontawesome/brands/bluesky
       link: https://bsky.app/profile/mmhan.net
+    - icon: fontawesome/brands/goodreads
+      link: https://www.goodreads.com/user/show/6297425-mike-han
+  generator: false

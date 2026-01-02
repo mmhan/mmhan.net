@@ -4,14 +4,24 @@ babel==2.17.0
     # via mkdocs-material
 backrefs==6.1
     # via mkdocs-material
+cairocffi==1.7.1
+    # via cairosvg
+cairosvg==2.8.2
+    # via mkdocs-material
 certifi==2025.11.12
     # via requests
+cffi==2.0.0
+    # via cairocffi
 charset-normalizer==3.4.4
     # via requests
 click==8.3.1
     # via mkdocs
 colorama==0.4.6
     # via mkdocs-material
+cssselect2==0.8.0
+    # via cairosvg
+defusedxml==0.7.1
+    # via cairosvg
 ghp-import==2.1.0
     # via mkdocs
 idna==3.11
@@ -47,8 +57,14 @@ paginate==0.5.7
     # via mkdocs-material
 pathspec==0.12.1
     # via mkdocs
+pillow==11.3.0
+    # via
+    #   cairosvg
+    #   mkdocs-material
 platformdirs==4.5.1
     # via mkdocs-get-deps
+pycparser==2.23
+    # via cffi
 pygments==2.19.2
     # via mkdocs-material
 pymdown-extensions==10.19.1
@@ -67,7 +83,15 @@ requests==2.32.5
     # via mkdocs-material
 six==1.17.0
     # via python-dateutil
+tinycss2==1.5.1
+    # via
+    #   cairosvg
+    #   cssselect2
 urllib3==2.6.2
     # via requests
 watchdog==6.0.0
     # via mkdocs
+webencodings==0.5.1
+    # via
+    #   cssselect2
+    #   tinycss2
