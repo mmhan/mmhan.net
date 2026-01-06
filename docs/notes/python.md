@@ -1,5 +1,6 @@
 # Python
 
+*Updated on*: **2026-01-06**
 
 ## Events
 
@@ -17,6 +18,9 @@ A few events that I'm interested in attending:
 
 ## Articles
 
+- [How uv got so fast](https://nesbitt.io/2025/12/26/how-uv-got-so-fast.html)
+    - [RE: How uv got so fast](https://simonwillison.net/2025/Dec/26/how-uv-got-so-fast/)
+- [What's new in Django 6.0](https://adamj.eu/tech/2025/12/03/django-whats-new-6.0/)
 - [Python 3.15 - What's New](https://docs.python.org/3.15/whatsnew/3.15.html#what-s-new-in-python-3-15)
 - [Comparing FastAPI and Django](https://www.david-dahan.com/blog/comparing-fastapi-and-django) - FastAPI is modern, no battery included; Django is established, has its own quirks
 - [The Inner Workings of Python Dataclasses Explained](https://jacobpadilla.com/articles/python-dataclass-internals) - Uses `__annotations__` dunder attributes to access the type hints
@@ -32,6 +36,7 @@ A few events that I'm interested in attending:
 
 ## Frameworks
 
+- [NiceGUI](https://nicegui.io)
 - [LlamaIndex](https://developers.llamaindex.ai/python/framework/)
 - [FastAPI](https://fastapi.tiangolo.com)
 - [Flask](https://flask.palletsprojects.com/en/stable/)
@@ -40,6 +45,7 @@ A few events that I'm interested in attending:
 
 ## Libraries
 
+- [boa-restrictor](https://boa-restrictor.readthedocs.io/en/latest/index.html) - Python and Django lints
 - [Narwhals](https://narwhals-dev.github.io/narwhals/) - Dataframe compatibility layer
 - [Pydantic AI](https://ai.pydantic.dev)
 - [Pydantic](https://docs.pydantic.dev/latest/)
@@ -53,6 +59,13 @@ A few events that I'm interested in attending:
 
 - [Open WebUI](https://github.com/open-webui/open-webui) - WebUI for AI
 - [Home Assistant Core](https://github.com/home-assistant/core) - Home automation
+
+
+## Videos
+
+- [Why developers still flock to Python](https://github.blog/developer-skills/programming-languages-and-frameworks/why-developers-still-flock-to-python-guido-van-rossum-on-readability-ai-and-the-future-of-programming/)
+- [FastAPI documentary](https://youtu.be/mpR8ngthqiE?si=JSpBQk6V7CbmhSBw)
+- [Python Documentary](https://youtu.be/GfH4QL4VqJ0?si=WVosLRYPTwDOO29g)
 
 ## Podcasts & Newsletters
 
