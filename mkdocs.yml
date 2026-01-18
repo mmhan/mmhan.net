@@ -71,10 +71,12 @@ markdown_extensions:
 # Navigation Structure
 nav:
   - $HOME: index.md
-  - /var/log/:
-    - log/index.md        # The auto-generated Blog Feed
+  - /var/log/: log/index.md        # The auto-generated Blog Feed
   - ~/.notes/:          # Your "Digital Garden"
-    - Python: notes/index.md
+    - Index: notes/index.md
+    - Software Engineering: notes/swe.md
+    - Python: notes/python.md
+    - AI: notes/ai.md
 
 extra:
   analytics:
