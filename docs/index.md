@@ -23,7 +23,6 @@ This space serves as an evolving **Digital Garden** and **Link Log**—a work-in
 
 - **`voyager`** My homelab to learn more about `k8s` and `docker`.
 - **`hubble-l`** My ubuntu box for local LLMs and other experiments.
-- **`resilience-loop`** An attempt at learning more about `FastAPI`, `react`, `tailwind` and creating a web-based game.
 
 ---
 
@@ -55,10 +54,8 @@ My content is split into two streams:
 When I'm not working, I am:
 
 * ⚽ Suffering/Celebrating as an **Arsenal** fan.
-* 🎮 Playing **Baby Steps**, **Sackboy: A Big Adventure**, **Dave the Diver** and of course, **Stardew Valley**.
-* 🍿 Watching **Pluribus**, **My name is Earl** and curating new movies to watch.
+* 🎮 Playing various games on [PS5](https://profile.playstation.com/digiorama) or [Steam](https://steamcommunity.com/id/mmhan/)
 * 📚 Growing my [goodreads library](https://www.goodreads.com/user/show/6297425-mike-han)
-* 👨‍👩‍👧 Teaching my daughter how to code via *Code.org*.
 
 ---
 

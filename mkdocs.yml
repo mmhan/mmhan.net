@@ -93,6 +93,12 @@ extra:
       link: https://github.com/mmhan
     - icon: fontawesome/brands/bluesky
       link: https://bsky.app/profile/mmhan.net
+    - icon: fontawesome/solid/check-double
+      link: https://trakt.tv/users/mmhan
     - icon: fontawesome/brands/goodreads
       link: https://www.goodreads.com/user/show/6297425-mike-han
+    - icon: fontawesome/brands/playstation
+      link: https://profile.playstation.com/digiorama
+    - icon: fontawesome/brands/steam
+      link: https://steamcommunity.com/id/mmhan/
   generator: false

@@ -1,7 +1,7 @@
 ---
+comments: false
 hide:
   - navigation
-  - feedback
 ---
 
 # `~/.notes`
